@@ -9,7 +9,7 @@ module.exports = defineConfig({
     open: false,//build自动打开浏览器
     proxy: {
       '/api': {
-        target: 'http://10.20.20.211:8088',
+        target: 'http://localhost:8088',
         changeOrigin: true,
         pathRewrite: {
           '^/api': '/' 
